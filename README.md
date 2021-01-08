@@ -60,37 +60,9 @@ cordova build android
 Make the p5.sound app
 
 Copy p5.js and p5.sound.js on /MyApp/www/js
-
-edit /MyApp/www/js/index.html
-
-<!DOCTYPE html>
-<html>
-    <head>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/p5.js"></script>
-        <script type="text/javascript" src="js/p5.sound.js"></script> 
-        <style>
-            body {
-                padding: 0;
-                margin: 0;
-            }
-        </style>
-
-    </head>
-
-    <body id = "myContent">
-
-        <div id="p5Container"></div>
-
-
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript" src="js/sketch.js"></script>
-    </body>
-</html>
-
-
-Copy sketch.js on /MyApp/www/js
-Add audio on /MyApp/www/assets
+Copy index.html to /MyApp/www/js/index.html 
+Copy sketch.js to /MyApp/www/js
+Add audio to /MyApp/www/assets
 
 Achtung!! The preload method from P5 don't work.
 
