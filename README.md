@@ -70,12 +70,15 @@ Achtung!! The preload method from P5 don't work.
 
 Use capacitor: https://capacitorjs.com/
 
-$ npm install @capacitor/core @capacitor/cli
 cd to project
-$ npx cap init
-$ npx cap add android
 
-npx cap open android to launch Android Studio
+-$ npm install @capacitor/core @capacitor/cli
+-$ npx cap init
+-$ npx cap add android
+
+npx cap open android 
+
+to launch Android Studio
 
 
 
